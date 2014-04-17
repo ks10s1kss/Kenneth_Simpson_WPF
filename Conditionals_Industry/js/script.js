@@ -10,3 +10,12 @@ var studyHours = parseInt(prompt("How many hours a night do you study?"));
 //Here I am checking my prompt to make sure the data entered is received correctly
 console.log(studyHours);
 
+/*For this if and else statement I am going to make sure the user either gets rewarded or 
+scolded for studying more or less than 25 hours a week.*/
+if (studyHours > 25){
+	alert("You need to study more!")
+}else{
+	alert("You are right on track!")
+};
+
+
