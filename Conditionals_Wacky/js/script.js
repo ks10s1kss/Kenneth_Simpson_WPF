@@ -7,6 +7,7 @@
 are on the tree they are wondering about.*/
 var limbNumber = parseInt(prompt("How many limbs are on your tree?"));
 
+
 /*I want to make sure that my prompt is collecting the correct data given 
 by the user.*/
 console.log(limbNumber);
@@ -25,4 +26,11 @@ console.log(leavesNumber);
 /*I am going to use another ternary to tell the user what the program thought
 about their input data.*/
 (leavesNumber <= 1) ? alert("Your tree is probably dead!") : alert("You must be extremely bored!");
+
+//Now I am going to calculate the data for the user
+var totalLeaves = (limbNumber * leavesNumber);
+
+//I am now going to alert the user of how many leaves are on their tree
+console.log("Their are " + totalLeaves + " leaves on your tree!");
+
 
