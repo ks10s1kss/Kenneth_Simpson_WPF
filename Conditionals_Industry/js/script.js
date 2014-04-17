@@ -32,6 +32,10 @@ if (studyNights >= 5){
 	alert("You need to dedicate yourself!")
 };
 
+//Now I am going to create an equation to let the user know how many hours they studied
+var totalHours = studyNights * studyHours;
+
+
 
 
 
