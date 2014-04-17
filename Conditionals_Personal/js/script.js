@@ -6,7 +6,7 @@ opposed to how much their body needs to get.*/
 
 /*Here I am prompting the user askting them how many hours of sleep
 do they get a night?*/
-var sleepTimeNightly = prompt("How many hours a night to you sleep?");
+var sleepTimeNightly = parseInt(prompt("How many hours a night to you sleep?"));
 
 //Here I am making sure that my promp box is working correctly within my program!
 console.log(sleepTimeNightly);
@@ -23,7 +23,7 @@ if (sleepTimeNightly < 8){
 
 /*for this variable I am going to prompt the user and see how many hours of sleep
 they get weekly*/
-var sleepTimeWeekly = prompt("How many hours of sleep do you get weekly?");
+var sleepTimeWeekly = parseInt(prompt("How many hours of sleep do you get weekly?"));
 
 //I am checking to mkae sure my prompt is retaining data correctly
 console.log(sleepTimeWeekly);
@@ -38,7 +38,7 @@ if (sleepTimeWeekly < 56){
 
 /*Even though this is an almost obvious question I want to ask my user if they are getting 
 sleep every night of the week or not!*/
-var daysSlept = prompt("How many days a week to you actually get to sleep?")
+var daysSlept = parseInt(prompt("How many days a week to you actually get to sleep?"))
 
 /*Here I want to add an if and else statement along with an else if statement to show the user 
 how they are doing with their nights slept.*/
@@ -49,3 +49,9 @@ if (daysSlept >= 7){
 }else{
 	alert("You need to reavaluate your sleeping schedule!")
 }
+
+
+
+
+
+
