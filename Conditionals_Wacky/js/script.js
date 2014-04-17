@@ -13,4 +13,11 @@ console.log(limbNumber);
 
 /*I am going to use a ternary to tell the user if the amount of limbs they
 entered is even in the realm of possibilites.*/
-(limbNumber >=1,000,000,000) ? alert("You have spent too much time counting tree limbs!") : alert("I bet that took concentration!")
+(limbNumber >=1,000,000,000) ? alert("You have spent too much time counting tree limbs!") : alert("I bet that took concentration!");
+
+/*Now I am going to declare and prompt the user how many leaves are on the 
+limbs that they counted*/
+var leavesNumber = parseInt(promt("How many leaves are on each limb?"));
+
+//I am checking my prompt to make sure the data entered in being collected correctly.
+console.log(leavesNumber);
