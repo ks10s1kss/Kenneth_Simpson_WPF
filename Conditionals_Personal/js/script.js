@@ -21,6 +21,6 @@ console.log(spentDays);
 /* Here I am using an if statement to prompt the user if the hours they spend
 on their homework is less than 25 hours.*/
 if (hoursSpent < 25){
-	alert("You need to spend more time on your homework!")
+	alert("You need to spend more time on your homework!");
 }
 
