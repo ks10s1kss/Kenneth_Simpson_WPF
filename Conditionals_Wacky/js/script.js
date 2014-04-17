@@ -7,3 +7,6 @@
 are on the tree they are wondering about.*/
 var limbNumber = parseInt(prompt("How many limbs are on your tree?"));
 
+/*I want to make sure that my prompt is collecting the correct data given 
+by the user.*/
+console.log(limbNumber);
