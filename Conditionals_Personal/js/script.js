@@ -39,3 +39,13 @@ if (sleepTimeWeekly < 56){
 /*Even though this is an almost obvious question I want to ask my user if they are getting 
 sleep every night of the week or not!*/
 var daysSlept = prompt("How many days a week to you actually get to sleep?")
+
+/*Here I want to add an if and else statement along with an else if statement to show the user 
+how they are doing with their nights slept.*/
+if (daysSlept >= 7){
+	alert("That is GREAT news!")
+}else if (daysSlept > 6){
+	alert("You may need to see a physician about a sleeping disorder!")
+}else{
+	alert("You need to reavaluate your sleeping schedule!")
+}
