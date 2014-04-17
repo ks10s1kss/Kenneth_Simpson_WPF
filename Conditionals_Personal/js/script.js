@@ -50,6 +50,11 @@ if (daysSlept >= 7){
 	alert("You need to reavaluate your sleeping schedule!")
 }
 
+//Here I am going to add up the total amount of sleep the user has got over the course of the week.
+var totalSleep = (daysSlept * sleepTimeNightly);
+
+//I am entering the calculation into the console.log
+console.log("You are get a total of " + totalSleep + " hours of sleep a week!");
 
 
 
