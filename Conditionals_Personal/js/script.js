@@ -11,6 +11,9 @@ var sleepTimeNightly = prompt("How many hours a night to you sleep?");
 //Here I am making sure that my promp box is working correctly within my program!
 console.log(sleepTimeNightly);
 
+/*for this variable I am going to prompt the user and see how many hours of sleep
+they get weekly*/
 
+var sleepTimeWeekly = prompt("How many hours a night do you get weekly?")
 
 
