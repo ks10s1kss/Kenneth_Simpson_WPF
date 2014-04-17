@@ -19,11 +19,19 @@ if (sleepTimeNightly < 8){
 	alert("You Need to get more sleep!")
 }else{
 	alert("You are getting your much needed hours of sleep!")
-}
+};
 
 /*for this variable I am going to prompt the user and see how many hours of sleep
 they get weekly*/
-var sleepTimeWeekly = prompt("How many hours a night do you get weekly?");
+var sleepTimeWeekly = prompt("How many hours of sleep do you get weekly?");
 
 //I am checking to mkae sure my prompt is retaining data correctly
 console.log(sleepTimeWeekly);
+
+/*I am going to setup an if and else statement to let the user know how they 
+are doing on their weekly amount of hours of sleep they are getting.*/
+if (sleepTimeWeekly < 56){
+	alert("You are not sleeping enough each week!")
+}else{
+	alert("You have great sleeping habits!")
+};
