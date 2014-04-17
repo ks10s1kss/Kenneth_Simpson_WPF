@@ -35,3 +35,7 @@ if (sleepTimeWeekly < 56){
 }else{
 	alert("You have great sleeping habits!")
 };
+
+/*Even though this is an almost obvious question I want to ask my user if they are getting 
+sleep every night of the week or not!*/
+var daysSlept = prompt("How many days a week to you actually get to sleep?")
