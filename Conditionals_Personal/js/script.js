@@ -6,7 +6,11 @@ opposed to how much their body needs to get.*/
 
 /*Here I am prompting the user askting them how many hours of sleep
 do they get a night?*/
-var sleepTimeNightly = prompt("How many hours a night to you sleep?")
+var sleepTimeNightly = prompt("How many hours a night to you sleep?");
+
+//Here I am making sure that my promp box is working correctly within my program!
+console.log(sleepTimeNightly);
+
 
 
 
