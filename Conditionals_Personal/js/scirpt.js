@@ -10,3 +10,10 @@ many hourse they spend a week on homework!*/
 var hoursSpent = prompt("How many hourse a week do you spend on your assignments?")
 //I am checking to make sure my prompt box is working correctly.
 console.log(hoursSpent);
+
+/* I am creating this variable to prompt the user to ask how many days a week do they
+work on their homework.*/
+var daysSpent = prompt("How many days a week do you work on your assignments?")
+
+//Here I am checking my prompt box for my variable daysSpent
+console.log(daysSpent);
