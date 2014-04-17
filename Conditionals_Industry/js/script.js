@@ -19,8 +19,20 @@ if (studyHours < 25){
 };
 
 //Now I am going to prompt the user to tell me how many days a week that they study.
-
 var studyNights = parseInt(prompt("How many nights a week do you study?"))
+
+//I want to make sure that my promp is collecting data correctly.
+console.log(studyNights);
+
+/*I am using an if and else statement to tell the user whether they are spendind enough 
+nights studying or not throughout the week.*/
+if (studyNights >= 5){
+	alert("You study habits are spot on!")
+}else{
+	alert("You need to dedicate yourself!")
+};
+
+
 
 
 
