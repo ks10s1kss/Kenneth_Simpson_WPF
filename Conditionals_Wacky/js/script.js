@@ -17,7 +17,12 @@ entered is even in the realm of possibilites.*/
 
 /*Now I am going to declare and prompt the user how many leaves are on the 
 limbs that they counted*/
-var leavesNumber = parseInt(promt("How many leaves are on each limb?"));
+var leavesNumber = parseInt(prompt("How many leaves are on each limb?"));
 
 //I am checking my prompt to make sure the data entered in being collected correctly.
 console.log(leavesNumber);
+
+/*I am going to use another ternary to tell the user what the program thought
+about their input data.*/
+(leavesNumber <= 1) ? alert("Your tree is probably dead!") : alert("You must be extremely bored!");
+
