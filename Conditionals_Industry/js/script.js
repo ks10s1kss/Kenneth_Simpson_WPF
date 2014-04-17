@@ -1,8 +1,12 @@
 //Kenneth Simpson April 17, 2014 
 //Conditionals_Industry
 
-/*In this program I am going to calculate how many hours a week the user studies
+/*In this program I am going to calculate how many hours a week the user studies to get good 
+grade to get a good job in the development industry*/
 
 /*Here I am prompting the user to tell me how many hours a night they study*/
-var studyHours = prompt("How many hours a night do you study?")
+var studyHours = parseInt(prompt("How many hours a night do you study?"));
+
+//Here I am checking my prompt to make sure the data entered is received correctly
+console.log(studyHours);
 
