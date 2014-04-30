@@ -54,7 +54,7 @@ if (daysSlept >= 7){
 var totalSleep = (daysSlept * sleepTimeNightly);
 
 //I am entering the calculation into the console.log
-console.log("You are get a total of " + totalSleep + " hours of sleep a week!");
+console.log("You are getting a total of " + totalSleep + " hours of sleep a week!");
 
 
 
