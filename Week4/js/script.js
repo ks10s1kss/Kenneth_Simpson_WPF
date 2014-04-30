@@ -1,16 +1,9 @@
-//basic structure of a function practice
+//Function Practice -- Arguments and Parameters
 
-/*function functionName () {
-	code that the function runs
-}*/
-
-function outputMsg() {
-	console.log("Hello World!");
+function dogYears(age){//parameters
+	var dogYears = age * 7;
+	console.log("Sparky is " + dogYears + " years old!")
 }
-
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
-	console.log(area)
-}
+var age1 = 4;
+dogYears(age1);//arguments
+dogYears(4);
