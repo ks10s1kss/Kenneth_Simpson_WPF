@@ -5,3 +5,7 @@ var radius = 4;
 
 //Here I am going to declare the second variable pie.
 var pie = 3.14;
+
+//Here I am declaring the third variable 2.
+var two = 2;
+
