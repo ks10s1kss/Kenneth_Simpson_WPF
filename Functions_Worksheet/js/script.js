@@ -9,3 +9,5 @@ var pie = 3.14;
 //Here I am declaring the third variable 2.
 var two = 2;
 
+//Here I am going to calculate the total.
+var circumference = calcTotal(4, 3.14, 2);
