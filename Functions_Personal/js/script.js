@@ -40,7 +40,8 @@ var pairs = parseInt(prompt("How many pairs of shoes are on each row?"));
 //I am printing to the console to make sure the information is being entered correctly.
 console.log(pairs);
 
-
+//I am calling my function to run and also alerting the user of the information they are 
+//looking for.
 var total = calPairsOfShoes(shelves, rows, pairs);
 alert("You have " + total + " pairs of shoes!");
 
