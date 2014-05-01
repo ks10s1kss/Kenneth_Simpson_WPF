@@ -10,6 +10,8 @@ var barksPerHour = parseInt(prompt("How many times an hour does you dog bark whi
 //I am printing my barksPerHour variable to the console to make sure it is working correctly. 
 console.log(barksPerHour);
 
+//I am using an if statement to let the user know if they need to get a bark collar
+//for their dog or not. 
 if (barksPerHour > 15){
 	alert("You really should get a bark collar for you dog!");
 }
