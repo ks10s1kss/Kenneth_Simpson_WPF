@@ -1,4 +1,12 @@
+//Kenneth Simpson 5.1.2014 Functions_Personal
+
+
 // How many shoes are in your closet?
+
+
+
+
+//I am declaring a variable so that I can prompt the user for information.
 var pairOfShoes = parseInt(prompt("How many pair of shoes do you think you have in your closet?"));
 console.log(pairOfShoes);
 
