@@ -7,6 +7,7 @@ console.log(timeOutside);
 
 //I am declaring my given using a variable and prompting the user for information.
 var barksPerHour = parseInt(prompt("How many times an hour does you dog bark while outside?"));
+//I am printing my barksPerHour variable to the console to make sure it is working correctly. 
 console.log(barksPerHour);
 
 if (barksPerHour > 15){
