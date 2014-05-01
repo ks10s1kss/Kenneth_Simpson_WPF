@@ -2,6 +2,7 @@
 
 //I am declaring my given using a variable and prompting the user for information.
 var timeOutside = parseInt(prompt("How many hours is your dog outside during the day?"));
+//I am printing my timeOutside variable to the console to make sure it is correct.
 console.log(timeOutside);
 
 
