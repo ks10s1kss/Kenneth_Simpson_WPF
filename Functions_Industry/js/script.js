@@ -7,7 +7,7 @@ and how many items you can have stripped and repaired on a daily basis.*/
 //I am declaring the bolts variable to prompt the user for some information regarding
 //their work progress. 
 var bolts = parseInt(prompt("How many bolt carriers can you detail strip in an hour?"));
-
+//I am printing to the console to make sure the information entered is correct.
 console.log(bolts);
 
 
