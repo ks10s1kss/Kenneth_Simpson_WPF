@@ -8,7 +8,7 @@ var total = calcCircumference(2, 3.14, 6);
 function calcCircumference(two, pie, radius){
 	//Here I am setting up a variable to calculate the circumference of the circle.
 	var circumference = two * pie * radius;
-	//I am returnng the circumference to where I called the function.
+	//I am returning the circumference to where I called the function.
 	return circumference;
 }
 //Here I am checking to make sure that my ouptut is correct.
@@ -27,6 +27,7 @@ var total = calcNumberOfStings(165, 8.666666667);
 function calcNumberOfStings(vicWeight, stings){
 	//Here I am declaring the numberOfStings variable to calculate my equation
 	var numberOfStings = vicWeight * stings;
+	//I am returning the numberOfStings to where I called my function
 	return numberOfStings;
 
 }
