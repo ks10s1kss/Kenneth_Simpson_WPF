@@ -21,6 +21,7 @@ function calcCircumference(two, pie, radius){
 	return circumference;
 }
 //Here I am checking to make sure that my ouptut is correct.
+//and I am printing it to the console. 
 console.log("The circumference of the circle is " + total);
 
 //Bee Sting Equation
