@@ -1,6 +1,6 @@
 //Kenneth Simpson 5.1.2014 Functions_Wacky
 
-
+//I am declaring my given using a variable and prompting the user for information.
 var timeOutside = parseInt(prompt("How many hours is your dog outside during the day?"));
 console.log(timeOutside);
 
