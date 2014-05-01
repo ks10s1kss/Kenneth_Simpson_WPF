@@ -12,8 +12,22 @@ function calcCircumference(two, pie, radius){
 	return circumference;
 }
 //Here I am checking to make sure that my ouptut is correct.
-console.log(total);
+console.log("The circumference of the circle is " + total);
 
+//Bee Sting Equation
+
+//Here I am declaring the victims weight. 
+var vicWeight = 165;
+
+var total = calcNumberOfStings(165, 8.666666667);
+
+function calcNumberOfStings(vicWeight, stings){
+	var numberOfStings = vicWeight * stings;
+	return numberOfStings;
+
+}
+
+console.log("It takes " + total + " bee stings to kill this animal!");
 
 
 
