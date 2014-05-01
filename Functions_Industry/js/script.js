@@ -10,7 +10,8 @@ var bolts = parseInt(prompt("How many bolt carriers can you detail strip in an h
 //I am printing to the console to make sure the information entered is correct.
 console.log(bolts);
 
-
+//I am using a ternary to tell the program what to do if the user enters specific numbers
+//that reflect their working day.
 (bolts < 10) ? alert("You seriously need to pick it up!") : alert("You are working at a good pace!");
 
 
