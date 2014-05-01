@@ -11,7 +11,7 @@ function calcCircumference(two, pie, radius){
 	//I am returnng the circumference to where I called the function.
 	return circumference;
 }
-
+//Here I am checking to make sure that my ouptut is correct.
 console.log(total);
 
 
