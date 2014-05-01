@@ -10,4 +10,12 @@ var pie = 3.14;
 var two = 2;
 
 //Here I am going to calculate the total.
-var circumference = calcTotal(4, 3.14, 2);
+var circumference = calcTotal(radius, pie, two);
+
+//Now I am going to print the result to the console. 
+console.log("The circumference of the circle is " + circumference);
+
+//Now I am going to give a value to calcTotal
+function calcTotal(4, 3.14, 2){
+
+}
