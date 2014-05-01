@@ -35,8 +35,9 @@ console.log(barrels);
 //I am declaring a total variable so that I can store the total information and also show the user
 //what their specific answer is. 
 var total = calcNumberOfParts(bolts, trigAssemblies, barrels);
-alert(total);
+alert("You have completed " + total + " parts today!");
 
+//I created a function to hold my parameters and to also calculate my results!
 function calcNumberOfParts (b, t, b){
 	var numberOfParts = b + t + b;
 	return numberOfParts;
