@@ -45,6 +45,7 @@ console.log(pairs);
 var total = calPairsOfShoes(shelves, rows, pairs);
 alert("You have " + total + " pairs of shoes!");
 
+//I created a function to hold my parameters and also to do my calculations.
 function calPairsOfShoes(s, r, p){
 	var numberOfShoes = s * r * p;
 	return numberOfShoes;
