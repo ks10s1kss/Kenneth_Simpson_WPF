@@ -16,7 +16,8 @@ if (barksPerHour > 15){
 	alert("You really should get a bark collar for you dog!");
 }
 
-
+//I am using an anonymous function to set my parameters for the program and also 
+//to do my calculations for the program.
 var calctimesBarkedAtCat = function(tO, bPH){
 	var timesBarkedAtCat = tO * bPH;
 	return timesBarkedAtCat;
