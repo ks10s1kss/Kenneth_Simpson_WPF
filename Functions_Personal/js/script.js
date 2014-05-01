@@ -31,11 +31,13 @@ console.log(shelves);
 //I am declaring a variable so that I can prompt the user for information and then use the variable later
 //for my calculations.
 var rows = parseInt(prompt("How many rows are on those shelves?"));
+//I am printing to the console to make sure the information is being entered correctly.
 console.log(rows);
 
 //I am declaring a variable so that I can prompt the user for information and then use the variable later
 //for my calculations.
 var pairs = parseInt(prompt("How many pairs of shoes are on each row?"));
+//I am printing to the console to make sure the information is being entered correctly.
 console.log(pairs);
 
 
@@ -47,6 +49,7 @@ function calPairsOfShoes(s, r, p){
 	return numberOfShoes;
 }
 
+//I am printing to the console to make sure the information is being entered correctly.
 console.log(total);
 
 
