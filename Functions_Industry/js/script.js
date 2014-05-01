@@ -17,7 +17,7 @@ console.log(bolts);
 
 //I am defining the variable to prompt the user for information about their work day. 
 var trigAssemblies = parseInt(prompt("How many trigger assemblies can you detail strip in an hour?"));
-//I am priniting to the console to make sure th information entered is correct.
+//I am priniting to the console to make sure the information entered is correct.
 console.log(trigAssemblies);
 
 
@@ -42,5 +42,5 @@ function calcNumberOfParts (b, t, b){
 	var numberOfParts = b + t + b;
 	return numberOfParts;
 }
-
+//I am printing to the console to make sure the information is entered correctly.
 console.log(total);
