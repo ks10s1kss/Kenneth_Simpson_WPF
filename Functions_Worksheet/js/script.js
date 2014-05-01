@@ -31,7 +31,7 @@ function calcNumberOfStings(vicWeight, stings){
 	return numberOfStings;
 
 }
-
+//Here I am printing out my result to my declared total variable
 console.log("It takes " + total + " bee stings to kill this animal!");
 
 
