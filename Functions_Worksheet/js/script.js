@@ -6,6 +6,7 @@ var total = calcCircumference(2, 3.14, 6);
 
 //Here I am creating a function and defining the functions parameters.
 function calcCircumference(two, pie, radius){
+	//Here I am setting up a variable to calculate the circumference of the circle.
 	var circumference = two * pie * radius;
 	return circumference;
 }
