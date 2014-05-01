@@ -25,6 +25,7 @@ var total = calcNumberOfStings(165, 8.666666667);
 
 //Here I am creating a function and defining the functions parameters. 
 function calcNumberOfStings(vicWeight, stings){
+	//Here I am declaring the numberOfStings variable to calculate my equation
 	var numberOfStings = vicWeight * stings;
 	return numberOfStings;
 
