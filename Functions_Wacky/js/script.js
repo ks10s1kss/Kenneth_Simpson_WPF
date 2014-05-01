@@ -5,7 +5,7 @@ var timeOutside = parseInt(prompt("How many hours is your dog outside during the
 //I am printing my timeOutside variable to the console to make sure it is correct.
 console.log(timeOutside);
 
-
+//I am declaring my given using a variable and prompting the user for information.
 var barksPerHour = parseInt(prompt("How many times an hour does you dog bark while outside?"));
 console.log(barksPerHour);
 
