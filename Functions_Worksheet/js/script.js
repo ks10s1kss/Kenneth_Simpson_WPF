@@ -3,6 +3,7 @@
 //I am declaring the 2x part of the circumference equation with the variable two.
 var two = 2;
 
+//I am declaring the pie piece of the circumference equation.
 var pie = 3.14;
 
 var radius = 6;
