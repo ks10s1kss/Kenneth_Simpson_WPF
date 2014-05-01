@@ -11,7 +11,8 @@ var pairOfShoes = parseInt(prompt("How many pair of shoes do you think you have 
 //I am printing to the console to make sure the information entered is correct.
 console.log(pairOfShoes);
 
-
+//I am usig an if, else if, and if statement so that I can have various inputs with the user 
+//depending on the values that they enter.
 if (pairOfShoes == 30){
 	alert("You have a shoe addiction!");
 } else if (pairOfShoes > 50){
