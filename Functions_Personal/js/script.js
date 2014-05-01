@@ -33,6 +33,8 @@ console.log(shelves);
 var rows = parseInt(prompt("How many rows are on those shelves?"));
 console.log(rows);
 
+//I am declaring a variable so that I can prompt the user for information and then use the variable later
+//for my calculations.
 var pairs = parseInt(prompt("How many pairs of shoes are on each row?"));
 console.log(pairs);
 
