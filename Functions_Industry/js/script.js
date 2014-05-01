@@ -32,6 +32,8 @@ var barrels = parseInt(prompt("How many barrels can you detail strip in an hour?
 //I am printing to the console to make sure the information entered is correct.
 console.log(barrels);
 
+//I am declaring a total variable so that I can store the total information and also show the user
+//what their specific answer is. 
 var total = calcNumberOfParts(bolts, trigAssemblies, barrels);
 alert(total);
 
