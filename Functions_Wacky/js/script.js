@@ -20,10 +20,12 @@ if (barksPerHour > 15){
 //to do my calculations for the program.
 var calctimesBarkedAtCat = function(tO, bPH){
 	var timesBarkedAtCat = tO * bPH;
+	//Here I am returning my value to where I called the function. 
 	return timesBarkedAtCat;
 }
 
+//I am creating a variable so that I can store my information and also alert the user of their information.
 var total = calctimesBarkedAtCat(timeOutside, barksPerHour);
-alert(total);
-
+alert("Your dog barks " + total + " times an hour!");
+//I am printing my total to the console to make sure it is working correctly. 
 console.log(total);
