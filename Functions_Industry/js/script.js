@@ -29,7 +29,7 @@ if (trigAssemblies == " ") {
 
 //I am declaring my final variable to promp the user for information about the variable.
 var barrels = parseInt(prompt("How many barrels can you detail strip in an hour?"));
-
+//I am printing to the console to make sure the information entered is correct.
 console.log(barrels);
 
 var total = calcNumberOfParts(bolts, trigAssemblies, barrels);
