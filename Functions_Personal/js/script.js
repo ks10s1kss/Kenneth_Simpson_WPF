@@ -6,7 +6,8 @@
 
 
 
-//I am declaring a variable so that I can prompt the user for information.
+//I am declaring a variable so that I can prompt the user for information and then use the variable
+//later for my calculations. 
 var pairOfShoes = parseInt(prompt("How many pair of shoes do you think you have in your closet?"));
 //I am printing to the console to make sure the information entered is correct.
 console.log(pairOfShoes);
@@ -21,7 +22,8 @@ if (pairOfShoes == 30){
 	alert("You have a healthy shoe habit!");
 }
 
-
+//I am declaring a variable so that I can prompt the user for information and then use the variable later
+//for my calculations.
 var shelves = parseInt(prompt("How many shelves of shoes do you have?"));
 console.log(shelves);
 
