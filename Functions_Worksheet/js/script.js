@@ -19,6 +19,8 @@ console.log("The circumference of the circle is " + total);
 //Here I am declaring the victims weight. 
 var vicWeight = 165;
 
+//I am passing arguments to the parameters and also declaring the variable total
+//so that I can have somewhere to print out my results. 
 var total = calcNumberOfStings(165, 8.666666667);
 
 function calcNumberOfStings(vicWeight, stings){
